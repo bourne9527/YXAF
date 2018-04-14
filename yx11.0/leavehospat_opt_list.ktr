@@ -1,22 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
     <name>leavehospat_opt_list</name>
-    <description>&#x51fa;&#x9662;&#x60a3;&#x8005;&#x9996;&#x9875;&#x624b;&#x672f;&#x7801;&#x6e05;&#x5355;</description>
-    <extended_description/>
-    <trans_version/>
+    <description>出院患者首页手术码清单</description>
+    <extended_description />
+    <trans_version />
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
-    <directory>&#x2f;</directory>
+    <directory>/</directory>
     <parameters>
     </parameters>
     <log>
       <trans-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <size_limit_lines/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -41,37 +42,37 @@
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>Y</enabled>
           <name>LINES_REJECTED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>ERRORS</id>
@@ -125,11 +126,11 @@
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -207,10 +208,10 @@
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -273,10 +274,10 @@
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -349,10 +350,10 @@
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -401,9 +402,9 @@
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection/>
-      <table/>
-      <field/>
+      <connection />
+      <table />
+      <field />
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
@@ -414,7 +415,7 @@
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file/>
+    <shared_objects_file />
     <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
@@ -427,15 +428,16 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2017&#x2f;08&#x2f;02 16&#x3a;47&#x3a;50.984</created_date>
+    <created_date>2017/08/02 16:47:50.984</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2017&#x2f;10&#x2f;27 20&#x3a;58&#x3a;30.785</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
+    <modified_date>2017/10/27 20:58:30.785</modified_date>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
     <notepad>
-      <note>&#x51fa;&#x9662;&#x60a3;&#x8005;&#x9996;&#x9875;&#x624b;&#x672f;&#x7801;&#x6e05;&#x5355;&#xa;4&#x79d2; 7&#x5929; PC</note>
+      <note>出院患者首页手术码清单
+4秒 7天 PC</note>
       <xloc>0</xloc>
       <yloc>0</yloc>
       <width>142</width>
@@ -507,20 +509,50 @@
     <port>3306</port>
     <username>root</username>
     <password>Encrypted 2be98afc86aa7a591b80dff238bc5f69b</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
+    <servername />
+    <data_tablespace />
+    <index_tablespace />
     <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>Y</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
     </attributes>
   </connection>
   <connection>
@@ -532,20 +564,50 @@
     <port>3306</port>
     <username>root</username>
     <password>Encrypted 2be98afc86aa7a591b80dff238bc5f69b</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
+    <servername />
+    <data_tablespace />
+    <index_tablespace />
     <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>Y</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
     </attributes>
   </connection>
   <connection>
@@ -553,139 +615,289 @@
     <server>88.88.88.170</server>
     <type>SAPR3</type>
     <access>Plugin</access>
-    <database/>
+    <database />
     <port>1521</port>
     <username>if-all14</username>
     <password>Encrypted 2be98afc86aa78285b80ab920cc96fe8e</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
+    <servername />
+    <data_tablespace />
+    <index_tablespace />
     <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>INITIAL_POOL_SIZE</code><attribute>2</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>MAXIMUM_POOL_SIZE</code><attribute>4</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>Y</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SAPClient</code><attribute>800</attribute></attribute>
-      <attribute><code>SAPLanguage</code><attribute>ZH</attribute></attribute>
-      <attribute><code>SAPSystemNumber</code><attribute>10</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>Y</attribute></attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>INITIAL_POOL_SIZE</code>
+        <attribute>2</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>MAXIMUM_POOL_SIZE</code>
+        <attribute>4</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>1521</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SAPClient</code>
+        <attribute>800</attribute>
+      </attribute>
+      <attribute>
+        <code>SAPLanguage</code>
+        <attribute>ZH</attribute>
+      </attribute>
+      <attribute>
+        <code>SAPSystemNumber</code>
+        <attribute>10</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>Y</attribute>
+      </attribute>
     </attributes>
   </connection>
   <order>
     <hop>
-      <from>&#x751f;&#x6210;&#x8bb0;&#x5f55;</from>
+      <from>生成记录</from>
       <to>SAP Input</to>
       <enabled>N</enabled>
     </hop>
     <hop>
-      <from>&#x5b57;&#x6bb5;&#x9009;&#x62e9;</from>
-      <to>&#x5220;&#x9664;</to>
+      <from>字段选择</from>
+      <to>删除</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>&#x5220;&#x9664;</from>
-      <to>&#x8fc7;&#x6ee4;&#x8bb0;&#x5f55;</to>
+      <from>删除</from>
+      <to>过滤记录</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>&#x5b57;&#x6bb5;&#x9009;&#x62e9;</from>
-      <to>&#x5220;&#x9664; 2</to>
+      <from>字段选择</from>
+      <to>删除 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>&#x5220;&#x9664; 2</from>
-      <to>&#x8fc7;&#x6ee4;&#x8bb0;&#x5f55; 3</to>
+      <from>删除 2</from>
+      <to>过滤记录 3</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>&#x8fc7;&#x6ee4;&#x8bb0;&#x5f55;</from>
-      <to>&#x963b;&#x585e;2</to>
+      <from>过滤记录</from>
+      <to>阻塞2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>&#x8fc7;&#x6ee4;&#x8bb0;&#x5f55; 3</from>
-      <to>&#x963b;&#x585e;</to>
+      <from>过滤记录 3</from>
+      <to>阻塞</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>&#x963b;&#x585e;2</from>
-      <to>&#x63d2;&#x5165; &#x2f; &#x66f4;&#x65b0;</to>
+      <from>阻塞2</from>
+      <to>插入 / 更新</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>&#x963b;&#x585e;</from>
-      <to>&#x63d2;&#x5165; &#x2f; &#x66f4;&#x65b0; 2</to>
+      <from>阻塞</from>
+      <to>插入 / 更新 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>SAP Input</from>
-      <to>&#x5b57;&#x6bb5;&#x9009;&#x62e9;</to>
+      <to>字段选择</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>&#x8f93;&#x5165;</from>
-      <to>&#x8bb0;&#x5f55;&#x5173;&#x8054; &#x28;&#x7b1b;&#x5361;&#x5c14;&#x8f93;&#x51fa;&#x29;</to>
+      <from>输入</from>
+      <to>记录关联 (笛卡尔输出)</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>&#x8bb0;&#x5f55;&#x5173;&#x8054; &#x28;&#x7b1b;&#x5361;&#x5c14;&#x8f93;&#x51fa;&#x29;</from>
+      <from>记录关联 (笛卡尔输出)</from>
       <to>SAP Input</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>&#x83b7;&#x53d6;&#x53d8;&#x91cf;</from>
-      <to>&#x8bb0;&#x5f55;&#x5173;&#x8054; &#x28;&#x7b1b;&#x5361;&#x5c14;&#x8f93;&#x51fa;&#x29;</to>
+      <from>获取变量</from>
+      <to>记录关联 (笛卡尔输出)</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
     <name>SAP Input</name>
     <type>SAPINPUT</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>SAP_ESB</connection>
     <function>
-    <name>ZRFC_SF_GET_OPAT_BASY_SURGCOD2</name>
-    <description/>
-    <group/>
-    <application/>
-    <host/>
+      <name>ZRFC_SF_GET_OPAT_BASY_SURGCOD2</name>
+      <description />
+      <group />
+      <application />
+      <host />
     </function>
     <parameters>
-    <parameter><field_name>BEGDA</field_name><sap_type>STRUCTURE</sap_type><table_name>IS_INPUT</table_name><parameter_name>BEGDA</parameter_name><target_type>Date</target_type>    </parameter>
-    <parameter><field_name>ENDDA</field_name><sap_type>STRUCTURE</sap_type><table_name>IS_INPUT</table_name><parameter_name>ENDDA</parameter_name><target_type>Date</target_type>    </parameter>
-    <parameter><field_name>EINRI</field_name><sap_type>STRUCTURE</sap_type><table_name>IS_INPUT</table_name><parameter_name>EINRI</parameter_name><target_type>String</target_type>    </parameter>
+      <parameter>
+        <field_name>BEGDA</field_name>
+        <sap_type>STRUCTURE</sap_type>
+        <table_name>IS_INPUT</table_name>
+        <parameter_name>BEGDA</parameter_name>
+        <target_type>Date</target_type>
+      </parameter>
+      <parameter>
+        <field_name>ENDDA</field_name>
+        <sap_type>STRUCTURE</sap_type>
+        <table_name>IS_INPUT</table_name>
+        <parameter_name>ENDDA</parameter_name>
+        <target_type>Date</target_type>
+      </parameter>
+      <parameter>
+        <field_name>EINRI</field_name>
+        <sap_type>STRUCTURE</sap_type>
+        <table_name>IS_INPUT</table_name>
+        <parameter_name>EINRI</parameter_name>
+        <target_type>String</target_type>
+      </parameter>
     </parameters>
     <fields>
-    <field><field_name>EINRI</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>EINRI</new_name><target_type>String</target_type>    </field>
-    <field><field_name>PATNR</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>PATNR</new_name><target_type>String</target_type>    </field>
-    <field><field_name>FALNR</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>FALNR</new_name><target_type>String</target_type>    </field>
-    <field><field_name>LOEKZ</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>LOEKZ</new_name><target_type>String</target_type>    </field>
-    <field><field_name>DOKNR</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>DOKNR</new_name><target_type>String</target_type>    </field>
-    <field><field_name>DOKVR</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>DOKVR</new_name><target_type>String</target_type>    </field>
-    <field><field_name>MUSEQ</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>MUSEQ</new_name><target_type>String</target_type>    </field>
-    <field><field_name>ZSNHH01</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>ZSNHH01</new_name><target_type>String</target_type>    </field>
-    <field><field_name>ZSNSSBM01</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>ZSNSSBM01</new_name><target_type>String</target_type>    </field>
-    <field><field_name>ZSNSHH01</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>ZSNSHH01</new_name><target_type>String</target_type>    </field>
-    <field><field_name>ZSNSSRQ01</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>ZSNSSRQ01</new_name><target_type>Date</target_type>    </field>
-    <field><field_name>ZSNSSSJ01</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>ZSNSSSJ01</new_name><target_type>Date</target_type>    </field>
-    <field><field_name>BWIDT</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>BWIDT</new_name><target_type>Date</target_type>    </field>
-    <field><field_name>ERDAT</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>ERDAT</new_name><target_type>Date</target_type>    </field>
-    <field><field_name>UPDAT</field_name><sap_type>TABLE</sap_type><table_name>ET_OPAT_BASYSURGCD</table_name><new_name>UPDAT</new_name><target_type>Date</target_type>    </field>
+      <field>
+        <field_name>EINRI</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>EINRI</new_name>
+        <target_type>String</target_type>
+      </field>
+      <field>
+        <field_name>PATNR</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>PATNR</new_name>
+        <target_type>String</target_type>
+      </field>
+      <field>
+        <field_name>FALNR</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>FALNR</new_name>
+        <target_type>String</target_type>
+      </field>
+      <field>
+        <field_name>LOEKZ</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>LOEKZ</new_name>
+        <target_type>String</target_type>
+      </field>
+      <field>
+        <field_name>DOKNR</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>DOKNR</new_name>
+        <target_type>String</target_type>
+      </field>
+      <field>
+        <field_name>DOKVR</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>DOKVR</new_name>
+        <target_type>String</target_type>
+      </field>
+      <field>
+        <field_name>MUSEQ</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>MUSEQ</new_name>
+        <target_type>String</target_type>
+      </field>
+      <field>
+        <field_name>ZSNHH01</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>ZSNHH01</new_name>
+        <target_type>String</target_type>
+      </field>
+      <field>
+        <field_name>ZSNSSBM01</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>ZSNSSBM01</new_name>
+        <target_type>String</target_type>
+      </field>
+      <field>
+        <field_name>ZSNSHH01</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>ZSNSHH01</new_name>
+        <target_type>String</target_type>
+      </field>
+      <field>
+        <field_name>ZSNSSRQ01</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>ZSNSSRQ01</new_name>
+        <target_type>Date</target_type>
+      </field>
+      <field>
+        <field_name>ZSNSSSJ01</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>ZSNSSSJ01</new_name>
+        <target_type>Date</target_type>
+      </field>
+      <field>
+        <field_name>BWIDT</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>BWIDT</new_name>
+        <target_type>Date</target_type>
+      </field>
+      <field>
+        <field_name>ERDAT</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>ERDAT</new_name>
+        <target_type>Date</target_type>
+      </field>
+      <field>
+        <field_name>UPDAT</field_name>
+        <sap_type>TABLE</sap_type>
+        <table_name>ET_OPAT_BASYSURGCD</table_name>
+        <new_name>UPDAT</new_name>
+        <target_type>Date</target_type>
+      </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -697,62 +909,55 @@
       <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x5220;&#x9664;</name>
+    <name>删除</name>
     <type>Delete</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>af_ouput</connection>
     <commit>100</commit>
     <lookup>
-      <schema/>
+      <schema />
       <table>leavehospat_opt_list</table>
       <key>
         <name>medRecord_id</name>
         <field>medRecord_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>doc_id</name>
         <field>doc_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>version_num</name>
         <field>version_num</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>sequence</name>
         <field>sequence</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>org_id</name>
         <field>org_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>row_num</name>
-        <field>row_num</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
     </lookup>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -764,62 +969,55 @@
       <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x5220;&#x9664; 2</name>
+    <name>删除 2</name>
     <type>Delete</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>af_output2</connection>
     <commit>100</commit>
     <lookup>
-      <schema/>
+      <schema />
       <table>leavehospat_opt_list</table>
       <key>
         <name>medRecord_id</name>
         <field>medRecord_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>doc_id</name>
         <field>doc_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>version_num</name>
         <field>version_num</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>sequence</name>
         <field>sequence</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>org_id</name>
         <field>org_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>row_num</name>
-        <field>row_num</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
     </lookup>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -831,246 +1029,277 @@
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x5b57;&#x6bb5;&#x9009;&#x62e9;</name>
+    <name>字段选择</name>
     <type>SelectValues</type>
-    <description/>
+    <description />
     <distribute>N</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-    <fields>        <select_unspecified>N</select_unspecified>
-      <meta>        <name>EINRI</name>
+    <fields>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>EINRI</name>
         <rename>org_id</rename>
         <type>String</type>
         <length>8</length>
         <precision>-2</precision>
-        <conversion_mask/>
+        <conversion_mask />
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>PATNR</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>PATNR</name>
         <rename>pat_id</rename>
         <type>String</type>
         <length>20</length>
         <precision>-2</precision>
-        <conversion_mask/>
+        <conversion_mask />
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>FALNR</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>FALNR</name>
         <rename>medRecord_id</rename>
         <type>String</type>
         <length>20</length>
         <precision>-2</precision>
-        <conversion_mask/>
+        <conversion_mask />
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>LOEKZ</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>LOEKZ</name>
         <rename>delete_ident</rename>
         <type>String</type>
         <length>1</length>
         <precision>-2</precision>
-        <conversion_mask/>
+        <conversion_mask />
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>DOKNR</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>DOKNR</name>
         <rename>doc_id</rename>
         <type>String</type>
         <length>255</length>
         <precision>-2</precision>
-        <conversion_mask/>
+        <conversion_mask />
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>DOKVR</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>DOKVR</name>
         <rename>version_num</rename>
         <type>Integer</type>
         <length>2</length>
         <precision>-2</precision>
-        <conversion_mask/>
+        <conversion_mask />
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>MUSEQ</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>MUSEQ</name>
         <rename>sequence</rename>
         <type>String</type>
         <length>5</length>
         <precision>-2</precision>
-        <conversion_mask/>
+        <conversion_mask />
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>ZSNHH01</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>ZSNHH01</name>
         <rename>row_num</rename>
         <type>String</type>
         <length>5</length>
         <precision>-2</precision>
-        <conversion_mask/>
+        <conversion_mask />
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>ZSNSSBM01</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>ZSNSSBM01</name>
         <rename>opt_code</rename>
         <type>String</type>
         <length>20</length>
         <precision>-2</precision>
-        <conversion_mask/>
+        <conversion_mask />
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>ZSNSHH01</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>ZSNSHH01</name>
         <rename>opt_seq</rename>
         <type>String</type>
         <length>20</length>
         <precision>-2</precision>
-        <conversion_mask/>
+        <conversion_mask />
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>ZSNSSRQ01</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>ZSNSSRQ01</name>
         <rename>opt_date</rename>
         <type>Date</type>
         <length>8</length>
         <precision>-2</precision>
         <conversion_mask>yyyyMMdd</conversion_mask>
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>ZSNSSSJ01</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>ZSNSSSJ01</name>
         <rename>opt_time</rename>
         <type>Date</type>
         <length>-2</length>
         <precision>-2</precision>
-        <conversion_mask>HH&#x3a;mm&#x3a;ss</conversion_mask>
+        <conversion_mask>HH:mm:ss</conversion_mask>
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>BWIDT</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>BWIDT</name>
         <rename>leaveHos_date</rename>
         <type>Date</type>
         <length>8</length>
         <precision>-2</precision>
         <conversion_mask>yyyyMMdd</conversion_mask>
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>ERDAT</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>ERDAT</name>
         <rename>create_date</rename>
         <type>Date</type>
         <length>8</length>
         <precision>-2</precision>
         <conversion_mask>yyyyMMdd</conversion_mask>
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>UPDAT</name>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+      <meta>
+        <name>UPDAT</name>
         <rename>modify_date</rename>
         <type>Date</type>
         <length>8</length>
         <precision>-2</precision>
         <conversion_mask>yyyyMMdd</conversion_mask>
         <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
+        <date_format_locale />
+        <date_format_timezone />
         <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>    </fields>    <cluster_schema/>
+        <encoding />
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <storage_type />
+      </meta>
+    </fields>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1082,60 +1311,53 @@
       <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x63d2;&#x5165; &#x2f; &#x66f4;&#x65b0;</name>
+    <name>插入 / 更新</name>
     <type>InsertUpdate</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>af_ouput</connection>
     <commit>100</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
-      <schema/>
+      <schema />
       <table>leavehospat_opt_list</table>
       <key>
         <name>medRecord_id</name>
         <field>medRecord_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>doc_id</name>
         <field>doc_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>version_num</name>
         <field>version_num</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>sequence</name>
         <field>sequence</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>org_id</name>
         <field>org_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>row_num</name>
-        <field>row_num</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <value>
         <name>org_id</name>
@@ -1213,7 +1435,7 @@
         <update>Y</update>
       </value>
     </lookup>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1225,60 +1447,53 @@
       <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x63d2;&#x5165; &#x2f; &#x66f4;&#x65b0; 2</name>
+    <name>插入 / 更新 2</name>
     <type>InsertUpdate</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>af_output2</connection>
     <commit>100</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
-      <schema/>
+      <schema />
       <table>leavehospat_opt_list</table>
       <key>
         <name>medRecord_id</name>
         <field>medRecord_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>doc_id</name>
         <field>doc_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>version_num</name>
         <field>version_num</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>sequence</name>
         <field>sequence</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>org_id</name>
         <field>org_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>row_num</name>
-        <field>row_num</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <value>
         <name>org_id</name>
@@ -1356,7 +1571,7 @@
         <update>Y</update>
       </value>
     </lookup>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1368,27 +1583,26 @@
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x751f;&#x6210;&#x8bb0;&#x5f55;</name>
+    <name>生成记录</name>
     <type>RowGenerator</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
         <name>BEGDA</name>
         <type>String</type>
         <format>yyyyMMdd</format>
-        <currency/>
-        <decimal/>
-        <group/>
+        <currency />
+        <decimal />
+        <group />
         <nullif>20170801</nullif>
         <length>8</length>
         <precision>-1</precision>
@@ -1398,10 +1612,10 @@
         <name>ENDDA</name>
         <type>String</type>
         <format>yyyyMMdd</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
         <length>8</length>
         <precision>-1</precision>
         <set_empty_string>Y</set_empty_string>
@@ -1409,11 +1623,11 @@
       <field>
         <name>EINRI</name>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>Y</set_empty_string>
@@ -1424,7 +1638,7 @@
     <interval_in_ms>5000</interval_in_ms>
     <row_time_field>now</row_time_field>
     <last_time_field>FiveSecondsAgo</last_time_field>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1436,46 +1650,45 @@
       <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x83b7;&#x53d6;&#x53d8;&#x91cf;</name>
+    <name>获取变量</name>
     <type>GetVariable</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
         <name>BEGDA</name>
-        <variable>&#x24;&#x7b;begintime&#x7d;</variable>
+        <variable>${begintime}</variable>
         <type>Date</type>
         <format>yyyyMMdd</format>
-        <currency/>
-        <decimal/>
-        <group/>
+        <currency />
+        <decimal />
+        <group />
         <length>8</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
         <name>ENDDA</name>
-        <variable>&#x24;&#x7b;endtime&#x7d;</variable>
+        <variable>${endtime}</variable>
         <type>Date</type>
         <format>yyyyMMdd</format>
-        <currency/>
-        <decimal/>
-        <group/>
+        <currency />
+        <decimal />
+        <group />
         <length>8</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1487,32 +1700,31 @@
       <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x8bb0;&#x5f55;&#x5173;&#x8054; &#x28;&#x7b1b;&#x5361;&#x5c14;&#x8f93;&#x51fa;&#x29;</name>
+    <name>记录关联 (笛卡尔输出)</name>
     <type>JoinRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <directory>&#x25;&#x25;java.io.tmpdir&#x25;&#x25;</directory>
-      <prefix>out</prefix>
-      <cache_size>500</cache_size>
-      <main/>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main />
     <compare>
-<condition>
- <negated>N</negated>
- <leftvalue/>
- <function>&#x3d;</function>
- <rightvalue/>
- </condition>
+      <condition>
+        <negated>N</negated>
+        <leftvalue />
+        <function>=</function>
+        <rightvalue />
+      </condition>
     </compare>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1524,28 +1736,27 @@
       <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x8f93;&#x5165;</name>
+    <name>输入</name>
     <type>RowGenerator</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
         <name>EINRI</name>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>Y</set_empty_string>
@@ -1553,10 +1764,10 @@
     </fields>
     <limit>1</limit>
     <never_ending>N</never_ending>
-    <interval_in_ms>&#x24;&#x7b;YESTIME&#x7d;</interval_in_ms>
+    <interval_in_ms>${YESTIME}</interval_in_ms>
     <row_time_field>now</row_time_field>
     <last_time_field>FiveSecondsAgo</last_time_field>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1568,30 +1779,38 @@
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x8fc7;&#x6ee4;&#x8bb0;&#x5f55;</name>
+    <name>过滤记录</name>
     <type>FilterRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-<send_true_to>&#x963b;&#x585e;2</send_true_to>
-<send_false_to/>
+    <send_true_to>阻塞2</send_true_to>
+    <send_false_to />
     <compare>
-<condition>
- <negated>N</negated>
- <leftvalue>delete_ident</leftvalue>
- <function>&#x3c;&#x3e;</function>
- <rightvalue/>
- <value><name>constant</name><type>String</type><text>X</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value> </condition>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>delete_ident</leftvalue>
+        <function>&lt;></function>
+        <rightvalue />
+        <value>
+          <name>constant</name>
+          <type>String</type>
+          <text>X</text>
+          <length>-1</length>
+          <precision>-1</precision>
+          <isnull>N</isnull>
+          <mask />
+        </value>
+      </condition>
     </compare>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1603,30 +1822,38 @@
       <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x8fc7;&#x6ee4;&#x8bb0;&#x5f55; 3</name>
+    <name>过滤记录 3</name>
     <type>FilterRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-<send_true_to>&#x963b;&#x585e;</send_true_to>
-<send_false_to/>
+    <send_true_to>阻塞</send_true_to>
+    <send_false_to />
     <compare>
-<condition>
- <negated>N</negated>
- <leftvalue>delete_ident</leftvalue>
- <function>&#x3c;&#x3e;</function>
- <rightvalue/>
- <value><name>constant</name><type>String</type><text>X</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value> </condition>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>delete_ident</leftvalue>
+        <function>&lt;></function>
+        <rightvalue />
+        <value>
+          <name>constant</name>
+          <type>String</type>
+          <text>X</text>
+          <length>-1</length>
+          <precision>-1</precision>
+          <isnull>N</isnull>
+          <mask />
+        </value>
+      </condition>
     </compare>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1638,26 +1865,25 @@
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x963b;&#x585e;</name>
+    <name>阻塞</name>
     <type>BlockUntilStepsFinish</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <steps>
       <step>
-        <name>&#x5220;&#x9664; 2</name>
+        <name>删除 2</name>
         <CopyNr>0</CopyNr>
-        </step>
-      </steps>
-    <cluster_schema/>
+      </step>
+    </steps>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1669,26 +1895,25 @@
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>&#x963b;&#x585e;2</name>
+    <name>阻塞2</name>
     <type>BlockUntilStepsFinish</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <steps>
       <step>
-        <name>&#x5220;&#x9664;</name>
+        <name>删除</name>
         <CopyNr>0</CopyNr>
-        </step>
-      </steps>
-    <cluster_schema/>
+      </step>
+    </steps>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1700,8 +1925,7 @@
       <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step_error_handling>
   </step_error_handling>
   <slave-step-copy-partition-distribution>
